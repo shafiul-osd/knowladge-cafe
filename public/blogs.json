@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co.com/ZdjJBKK/4332433-18972.jpg",
+      "title": "The Ultimate Guide to JavaScript",
+      "author": "John Doe",
+      "author_img": "https://i.ibb.co.com/02rM4Cd/portrait-adult-male-working-from-home.jpg",
+      "posted_date": "feb 14 (4 days ago)",
+      "reading_time": "8 min",
+      "hashtag": ["#JavaScript", "#Programming", "#Guide"]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co.com/pL8VPxD/development-opportunity-strategy-improvement-word.jpg",
+      "title": "Understanding Flexbox in CSS",
+      "author": "Jane Smith",
+      "author_img": "https://i.ibb.co.com/Kx67YRS/tall-smart-arab-student-man-wear-black-jeans-jacket-eyeglasses-sitting-library-read-book-hands.jpg",
+      "posted_date": "jan 10 (4 days ago)",
+      "reading_time": "5 min",
+      "hashtag": ["#CSS", "#Flexbox", "#Frontend"]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co.com/x5pWpmV/programming-background-concept.jpg",
+      "title": "10 Tips for Writing Clean Code",
+      "author": "Alice Brown",
+      "author_img": "https://i.ibb.co.com/SVYPD4D/portrait-person-entrapped-by-cybersickness-using-smart-device-too-long.jpg",
+      "posted_date": "july 17 (10 days ago)",
+      "reading_time": "10 min",
+      "hashtag": ["#Coding", "#CleanCode", "#BestPractices"]
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co.com/jLkx78L/programming-background-with-html-text.jpg",
+      "title": "API Development Best Practices",
+      "author": "Bob Johnson",
+      "author_img": "https://i.ibb.co.com/g95k9c9/young-surprised-man-black-shirt-with-optical-glasses-holds-looks-clipboard-isolated-pink-wall.jpg",
+      "posted_date": "aprill 20 (7 days ago)",
+      "reading_time": "7 min",
+      "hashtag": ["#API", "#Backend", "#Development"]
+    },
+    {
+      "id": 5,
+      "cover": "https://i.ibb.co.com/KxrBCjY/programming-background-with-html-text-1.jpg",
+      "title": "Mastering React for Beginners",
+      "author": "Emily Davis",
+      "author_img": "https://i.ibb.co.com/1QDGF00/young-woman-sitting-library-using-books-computer.jpg",
+      "posted_date": "may 28 (6 days ago)",
+      "reading_time": "12 min",
+      "hashtag": ["#React", "#JavaScript", "#Frontend"]
+    }
+  ]
+  
