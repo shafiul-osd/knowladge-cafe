@@ -12,12 +12,16 @@ const Blog = ({ blog, handletoAddbookmark, handlereadtime }) => {
   } = blog;
   return (
     <div className="mt-5">
-      <img className="rounded-lg" src={cover} alt="" />
+      <img className="rounded-lg h-96 object-cover w-full" src={cover} alt="" />
 
       <div className="flex justify-between">
         <div className="flex gap-4 items-center">
-          <div>
-            <img className="w-16 rounded-full" src={author_img} alt="" />
+          <div className="mt-2">
+            <img
+              className="w-16 rounded-full h-14 object-cover"
+              src={author_img}
+              alt=""
+            />
           </div>
           <div>
             <h2>{author}</h2>
@@ -36,21 +40,23 @@ const Blog = ({ blog, handletoAddbookmark, handlereadtime }) => {
         </div>
       </div>
 
-      <h2>{title}</h2>
+      <h2 className="text-2xl font-bold mt-4">{title}</h2>
 
-      <p>
+      <p className="mt-2">
         {hashtag.map((hash) => (
           <span>
             <a href="">{hash}</a>
           </span>
         ))}
       </p>
-      <button
-        onClick={() => handlereadtime(reading_time)}
-        className="bg-purple-800 font-bold underline"
-      >
-        Mark as read
-      </button>
+      <div className="mt-2">
+        <button
+          onClick={() => handlereadtime(reading_time)}
+          className="text-purple-800 font-bold underline"
+        >
+          Mark as read
+        </button>
+      </div>
     </div>
   );
 };
