@@ -14,7 +14,7 @@ const Blog = ({ blog, handletoAddbookmark, handlereadtime }) => {
     <div className="mt-5">
       <img className="rounded-lg h-96 object-cover w-full" src={cover} alt="" />
 
-      <div className="flex justify-between">
+      <div className="flex justify-between items-center">
         <div className="flex gap-4 items-center">
           <div className="mt-2">
             <img
@@ -24,7 +24,7 @@ const Blog = ({ blog, handletoAddbookmark, handlereadtime }) => {
             />
           </div>
           <div>
-            <h2>{author}</h2>
+            <h2 className="font-bold">{author}</h2>
             <p>{posted_date}</p>
           </div>
         </div>
