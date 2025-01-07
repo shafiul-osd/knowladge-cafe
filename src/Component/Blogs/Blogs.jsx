@@ -12,9 +12,7 @@ const Blogs = ({ handletoAddbookmark, handlereadtime }) => {
   }, []);
 
   return (
-    <div className="">
-      <h2 className="text-4xl">blogs</h2>
-
+    <div className="mt-10">
       {blogs.map((blog) => (
         <Blog
           key={blogs.id}

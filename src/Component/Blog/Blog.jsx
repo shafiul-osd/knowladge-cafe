@@ -11,7 +11,7 @@ const Blog = ({ blog, handletoAddbookmark, handlereadtime }) => {
     hashtag,
   } = blog;
   return (
-    <div>
+    <div className="mt-5">
       <img className="rounded-lg" src={cover} alt="" />
 
       <div className="flex justify-between">

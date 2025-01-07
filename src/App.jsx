@@ -27,16 +27,16 @@ function App() {
 
   return (
     <>
-      <div className="mx-auto container">
+      <div className="mx-auto container px-4 overflow-x-hidden">
         <Header></Header>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-16">
-          <div className="lg:col-span-2 border border-red-600">
+          <div className="lg:col-span-2">
             <Blogs
               handletoAddbookmark={handletoAddbookmark}
               handlereadtime={handlereadtime}
             ></Blogs>
           </div>
-          <div className="lg:col-span-1 border border-yellow-500">
+          <div className="lg:col-span-1">
             <Bookmark
               bookmarks={bookmarks}
               readingtime={readingtime}
