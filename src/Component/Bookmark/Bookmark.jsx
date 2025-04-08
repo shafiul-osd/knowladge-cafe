@@ -1,4 +1,3 @@
-import React from "react";
 import Bookmark_items from "../Bookmark_items/Bookmark_items";
 
 const Bookmark = ({ bookmarks, readingtime }) => {
